@@ -9,8 +9,12 @@ body{
     color: #FFFFFF;
 
 }
+/*General styling*/
 h1{
     text-align: center;
+}
+h2, h3{
+    color: #4563FF;
 }
 a{
     text-decoration: none;
@@ -18,3 +22,62 @@ a{
 li{
     list-style-type: none;
 }
+/*Navigation styling*/
+#navigation{
+    display: flex;
+    height: 10vh;
+}
+nav{
+    display: none;
+}
+#logo{
+    background: #4563FF;
+}
+#logo, .navButton{
+    width: 50%;
+}
+#navButton {
+    text-align: center;
+    border: 2px solid #4563FF;
+}
+/*Welcome message*/
+#welcome{
+    margin: auto;
+    text-align: center;
+}
+#bottonMore li{
+    border: 2px solid #4563FF;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#bottonMore li {
+    transition-duration: 0.4s;
+}
+#bottonMore li:hover {
+    background-color: #4563FF;
+    color: white;
+}
+/*About*/
+#intro{
+    width: 90%;
+    margin: auto;
+}
+#intro img{
+    border: 5px solid #4563FF;
+    box-shadow: 10px 15px #1A2664;
+}
+.project{
+    width: 90%;
+}
+/*Project*/
+.link{
+    color: #FFFFFF;
+    height: 4.5rem;
+    filter: invert(97%) sepia(85%) saturate(0%) hue-rotate(243deg) brightness(117%) contrast(86%);
+}
+/*Contact*/
+form input, form textarea{
+    background-color: #1A2664;
+}
+/*Footer*/
